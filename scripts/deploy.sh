@@ -386,7 +386,7 @@ deploy() {
     install_docker
     install_nodejs
     
-    APP_DIR=$(create_directories)
+    APP_DIR="/opt/fire-department"
     cd $APP_DIR
     
     # Copy application files (in production, these would be provided)
